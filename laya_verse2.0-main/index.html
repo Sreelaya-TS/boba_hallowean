@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>LAYA VERSE</title>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="container">
+        <h1>Halloween
+            <img src="my art work/pumpkin-removebg-preview.png" alt="cloud" class="cloud">
+        </h1>
+        <h2>Hello there!</h2>
+        <p>Welcome to Hallostory...(^^)
+            Glad to meet you!
+        </p>
+        <img src="my art work/cfr20d18ee07fbaws3.webp" alt="" class="gif-topright">
+        <div id="intro">
+            <p>Halloween, also known as All Hallows' Eve, or All Saints' Eve, 
+                is a celebration observed in many countries on 31 October, 
+                the eve of the Western Christian feast of All Hallows' Day. 
+                It is at the beginning of the observance of Allhallowtide,
+                the time in the Christian liturgical year dedicated to remembering the dead,
+                including saints (hallows), martyrs, and all the faithful departed.In popular culture, 
+                Halloween has
+                become a celebration of horror and is associated with the macabre and the supernatural.</p>
+        </div>
+        <div id="my_projects">
+            <h3>Fun Facts</h3>
+            <p>Here are some fun facts on haloween :)</p>
+            <ul>
+                <li><h4>Etymology</h4>
+                    <p>Hallow derives from Middle English halowen, from Old English hālig meaning holy and has
+                         been used synonymously with the word saint. The word Halloween or Hallowe'en 
+                         comes from the Lowland Scots form of All Hallows' Eve (the evening before All Hallows' Day):
+                          even is the Scots term for 'eve' or 'evening', and is contracted to e'en or een;
+                           so (All) Hallow(s) E(v)en became Halloween. A term equivalent to 'All Hallows Eve' 
+                           as attested in Old English.Thus, the name has an origin in Christianity,
+                            and means 'Saints' eve(ning)'</p>
+                    
+                    <img src="my art work/Snap-Apple_Night_globalphilosophy (1).png" alt="" class="robo_img">
+                </li>
+                <li><h4>History</h4>
+                    <p>After the persecution of Christians in the Roman Empire, "there were more martyrs than there
+                         were days in the year, and so one day was set apart in honor of them all, and called All Saints' Day."[better source needed] 
+                         Commemorations of all saints and martyrs were held by several churches on various dates, mostly in springtime. In 4th-century Roman Edessa 
+                         it was held on 13 May, and that date was endorsed by Pope Boniface IV in 609, 
+                         when he re-dedicated the Pantheon in Rome to Mary and all martyrs. This was the date of Lemuria, an ancient Roman festival of the dead, 
+                         when it was believed that restless and vengeful souls wandered. Some folklorists also suggest the ancient Roman festival of Parentalia
+                          (including Feralia) influenced All Saints' and All Souls' days.
+                          Parentalia involved a commemorative meal at the graves of relatives,
+                         during which food and drink were offered to the dead, and Christian Romans continued this custom, extending it to the saints and martyrs.
+There is evidence that by 800, churches in Ireland and Northumbria were holding a feast commemorating all saints on 1 November.In 835, the Frankish Empire officially adopted 1 November 
+as the date of All Saints' Day, which was endorsed by Pope Gregory IV.This may have been promoted by Alcuin of Northumbria, who was a member of Charlemagne's court,[60] or by the Irish clerics and scholars who were also members of the Frankish court. The date was influenced by Celtic 
+or Germanic idea traditions commemorating the dead at the beginning of winter. 
+They may have seen it as the most fitting time to do so, as it is a time of "dying" in nature.
+ It is also suggested the change was made on the "practical grounds that Rome in summer could not accommodate the great number of pilgrims who flocked to it", and perhaps because of public health concerns over Roman Fever, which claimed a number of lives during Rome's summers.</p>
+                    <img src="my art work/Halloween_Witch_2011.JPG" alt="" class="project_img">
+                </li>
+                <li><h4>Celtic folk influence</h4>
+                    <p>Halloween is thought to have been influenced by folk customs and beliefs from the Celtic-speaking countries. 
+                        The origins of some Halloween customs are, by some authors, typically linked to the Gaelic festival Samhain, 
+                        though other scholars contest the claim that Samhain influenced Halloween.[102][103] Historian Ronald Hutton suggests that
+                         "its importance was only reinforced by the imposition upon it of a Christian festival", All Saint's Day.
+                          Jack Santino, a folklorist, writes that "there was throughout Ireland an uneasy truce existing between customs and beliefs
+                         associated with Christianity and those associated with religions that were Irish before Christianity arrived"</p>
+                    <img src="my art work/J._M._Wright_-_Edward_Scriven_-_Robert_Burns_-_Halloween.JPG" alt="Pikachu PCB" class="project_img">
+                     </li>
+            </ul>
+        </div>
+    <script>
+
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', (e) => {
+           cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+e.pageX+"px; left: "+(e.pageX - 10)+"px;" )
+        })
+        document.addEventListener("click", () => {
+            cursor.classList.add("expand"); 
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500);
+        })
+        
+    </script>
+    <footer>
+        <p>&copy;happy halloween. Made with ♡ by LAYA</p>
+    </footer>
+</body>
+</html>
